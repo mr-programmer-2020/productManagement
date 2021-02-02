@@ -1,0 +1,35 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(170px, auto);
+    grid-gap: 4em;
+    padding-top: 1em;
+}
+
+.wrapper > div {
+    border: solid 3px #333;
+    padding: 2em;
+    align-self: center;
+    text-align: center;
+}
+
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: #333333;
+    padding: 9px 6px;
+    margin-bottom: 4px;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #cccccc;
+    height: 330px;
+}
+
+input {
+    margin-left: 10px;
+}
+a:hover {
+    text-decoration: none;
+}
